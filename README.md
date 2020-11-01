@@ -13,6 +13,7 @@ This PCB has not been tested for functionality. Please review the project files 
 
 ## Layout
 ![layout.png](.github/layout.png)
+[KLE](http://www.keyboard-layout-editor.com/#/gists/ef914cc294dadcf20cfa8c7b7239d802)
 
 ## PCB
 
