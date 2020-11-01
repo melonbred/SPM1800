@@ -344,11 +344,6 @@
       (net 100 PIN_E6))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 +5V))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5F9F1650)
@@ -382,11 +377,6 @@
     )
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 99 "Net-(J2-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 5FA36B46)
@@ -3000,11 +2990,6 @@
       (net 68 "Net-(J1-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Fuse:Fuse_1206_3216Metric (layer B.Cu) (tedit 5F68FEF1) (tstamp 5F9E9B32)
