@@ -370,10 +370,6 @@ Wire Wire Line
 Connection ~ 5550 8850
 Wire Wire Line
 	5550 8850 5550 8950
-Text GLabel 7150 8700 2    50   Input ~ 0
-D-
-Text GLabel 7150 8850 2    50   Input ~ 0
-D+
 Wire Wire Line
 	6800 8950 6800 8850
 Connection ~ 6800 8850
@@ -2608,4 +2604,34 @@ Wire Notes Line width 20
 	8200 7600 8200 9000
 Text Notes 8250 8900 0    98   Italic 20
 RGB Header
+Text GLabel 7500 8850 2    50   Input ~ 0
+D+
+Text GLabel 7500 8700 2    50   Input ~ 0
+D-
+$Comp
+L Device:R_Small R5
+U 1 1 5FC3EB4E
+P 7250 8700
+F 0 "R5" V 7054 8700 50  0000 C CNN
+F 1 "22" V 7145 8700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7250 8700 50  0001 C CNN
+F 3 "~" H 7250 8700 50  0001 C CNN
+	1    7250 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5FC3F901
+P 7250 8850
+F 0 "R6" V 7350 8850 50  0000 C CNN
+F 1 "22" V 7450 8850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7250 8850 50  0001 C CNN
+F 3 "~" H 7250 8850 50  0001 C CNN
+	1    7250 8850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 8700 7350 8700
+Wire Wire Line
+	7500 8850 7350 8850
 $EndSCHEMATC
