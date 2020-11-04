@@ -42,6 +42,7 @@ Firmware has not been written at this time. This section will be updated when th
 
 ## Additional Notes
 This project uses KiCAD libraries maintained by ai03:
+
 -[MX_Alps_Hybrid](https://github.com/ai03-2725/MX_Alps_Hybrid)
 -[random-keyboard-parts.pretty](https://github.com/ai03-2725/random-keyboard-parts.pretty)
 -[Type-C.pretty](https://github.com/ai03-2725/Type-C.pretty)
