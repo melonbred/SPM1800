@@ -2419,7 +2419,7 @@ Text GLabel 3100 9000 2    50   Input ~ 0
 COL11
 Text GLabel 3100 8900 2    50   Input ~ 0
 COL12
-Text GLabel 3100 8700 2    50   Input ~ 0
+Text GLabel 3600 8650 2    50   Input ~ 0
 COL15
 Text GLabel 3100 7300 2    50   Input ~ 0
 COL14
@@ -2609,23 +2609,23 @@ D+
 Text GLabel 7500 8700 2    50   Input ~ 0
 D-
 $Comp
-L Device:R_Small R?
+L Device:R_Small R5
 U 1 1 5FC3EB4E
 P 7250 8700
-F 0 "R?" V 7054 8700 50  0000 C CNN
+F 0 "R5" V 7054 8700 50  0000 C CNN
 F 1 "22" V 7145 8700 50  0000 C CNN
-F 2 "" H 7250 8700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7250 8700 50  0001 C CNN
 F 3 "~" H 7250 8700 50  0001 C CNN
 	1    7250 8700
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R6
 U 1 1 5FC3F901
 P 7250 8850
-F 0 "R?" V 7350 8850 50  0000 C CNN
+F 0 "R6" V 7350 8850 50  0000 C CNN
 F 1 "22" V 7450 8850 50  0000 C CNN
-F 2 "" H 7250 8850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7250 8850 50  0001 C CNN
 F 3 "~" H 7250 8850 50  0001 C CNN
 	1    7250 8850
 	0    1    1    0   
@@ -2634,4 +2634,6 @@ Wire Wire Line
 	7500 8700 7350 8700
 Wire Wire Line
 	7500 8850 7350 8850
+Text GLabel 3100 8700 2    50   Input ~ 0
+COL13
 $EndSCHEMATC

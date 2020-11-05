@@ -2419,7 +2419,7 @@ Text GLabel 3100 9000 2    50   Input ~ 0
 COL11
 Text GLabel 3100 8900 2    50   Input ~ 0
 COL12
-Text GLabel 3100 8700 2    50   Input ~ 0
+Text GLabel 3100 8800 2    50   Input ~ 0
 COL15
 Text GLabel 3100 7300 2    50   Input ~ 0
 COL14
@@ -2634,4 +2634,6 @@ Wire Wire Line
 	7500 8700 7350 8700
 Wire Wire Line
 	7500 8850 7350 8850
+Text GLabel 3100 8700 2    50   Input ~ 0
+COL13
 $EndSCHEMATC
