@@ -25,9 +25,9 @@ This PCB has not been tested for functionality. Please review the project files 
 
 | Designator | Description | Package | QTY | LCSC Part Number |
 |-----------|-----------|-------|-----|-----------------|
-|C1, C2, C3, C4|Capacitor - 0.1uF|0805|3|C28233|
+|C1, C2, C3, C4|Capacitor - 0.1uF|0805|4|C28233|
 |C5|Capacitor - 10uF|0805|1|C15850|
-|C6, C7|Capacitor - 22pF|0805|1|C1804|
+|C6, C7|Capacitor - 22pF|0805|2|C1804|
 |C8|Capacitor - 1uF|0805|1|C28323|
 |D1 - D58|Diode - 1N4148|SOD-123|58|C466653|
 |D59|ESD Protection Diode - PRTR5V0U2X|SOD-143B|1|C12333|
